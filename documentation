@@ -1,0 +1,21 @@
+Capabilities & Scope
+
+Supervised classification of Iris species (e.g., Iris-setosa, Iris-versicolor, Iris-virginica).
+
+Zero external services; all computation is local.
+
+Command-line interface for single-record scoring.
+
+Reusable Python functions for programmatic use (data loading, model training, inference). 
+
+KNN Predictor
+
+2) System Requirements
+
+Python: 3.9+ (3.8+ generally fine)
+
+Libraries:
+
+pandas
+
+scikit-learn
