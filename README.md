@@ -1,2 +1,3 @@
 # KNN-Predictor
 KNN cluster classification works by finding the distances between a query and all examples in its data. The specified number of examples (K) closest to the query are selected. The classifier then votes for the most frequent label found.
+This artifact delivers a minimal yet extensible supervised-learning workflow: load → encode → fit → predict. It leverages scikit-learn’s KNeighborsClassifier to classify an Iris instance using the canonical four features (SepalLength, SepalWidth, PetalLength, PetalWidth). The implementation is intentionally lightweight to optimize developer velocity and learning agility while remaining amenable to hardening for production.
